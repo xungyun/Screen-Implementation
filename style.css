@@ -1,0 +1,65 @@
+/* 기본 스타일 설정 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FBF6E2;
+}
+
+header {
+  background-color:#ECCEAE;
+  color: rgba(116, 45, 45, 0.993);
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 35px;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+.nav-button {
+  background-color: #E68369;
+  color:white;
+  border: none;
+  padding: 15px;
+  margin: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 8px; 
+}
+
+.nav-button:hover {
+  background-color: #131842;
+}
+
+footer {
+  background-color: #ECCEAE;
+  color: rgba(116, 45, 45, 0.993);;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
